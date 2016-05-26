@@ -1,14 +1,33 @@
 Speeker
 =======
 
-This is a simple Android app for Text-to-Speech.  It uses the default system
-voice.
+A simple app that reads text aloud using the system Text to Speech engine.
 
-<img src="ic_launcher_web.png" style="text-align: center;">
+Download
+--------
 
-COPYRIGHT
+Downloads (`.apk`) are available on the [Releases](https://github.com/Kwpolska/speeker/releases) page.
+
+Installing and configuring [Google TTS](https://play.google.com/store/apps/details?id=com.google.android.tts)
+(or another high-quality TTS engine) is heavily recommended.
+
+Languages
 ---------
-Copyright © 2014, Chris “Kwpolska” Warrick.
+
+Speeker uses the system Text to Speech engine and supports all languages
+available in the selected engine.
+
+If you are using Android 5.0 Lollipop or later (API Level 21+), you can switch
+between languages using the drop-down box. This option is not supported on
+Android 4.4 KitKat (the default system language is used instead).
+
+The list of available languages depends on network availability. Selecting
+a language that is not installed offline may result in extra data charges.
+It may also cause additional languages to be installed on your system.
+
+License
+-------
+Copyright © 2016, Chris Warrick.
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without

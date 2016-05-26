@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Speeker</string>
+    <string name="language_label">Language</string>
+    <string name="text_to_speak_label">Text to Speak</string>
+    <string name="language_label_unsupported">Language (not available on this device)</string>
+    <string name="notts_title">TTS failed to start</string>
+    <string name="notts_message">The TTS engine failed to start. Speeker can’t continue.</string>
+    <string name="close">Close</string>
+    <string name="action_about">About</string>
+    <string name="action_tts_settings">Text-to-speech settings</string>
+    <string name="tts_generic_error">Failed to synthesize speech.</string>
+    <string name="tts_formattable_error">Failed to synthesize speech: %s</string>
+    <string name="tts_too_long_error">Error: input too long.</string>
+    <string name="tts_no_language_error">Language %s is unsupported.</string>
+    <string name="ok">OK</string>
+    <string name="aboutVersionFormat">Version %s</string>
+    <string name="copyright" translatable="false">Copyright © 2016, Chris Warrick.\nAll rights reserved.</string>
+    <string name="license" translatable="false">Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:\n\n1. Redistributions of source code must retain the above copyright notice, this list of conditions, and the following disclaimer.\n2. Redistributions in binary form must reproduce the above copyright notice, this list of conditions, and the following disclaimer in the documentation and/or other materials provided with the distribution.\n3. Neither the name of the author of this software nor the names of contributors to this software may be used to endorse or promote products derived from this software without specific prior written consent.\n\nTHIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED.  IN NO EVENT SHALL THE COPYRIGHT OWNER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.\n\nIcon under CC BY 3.0 license — generated using Android Asset Studio by Roman Nurik.</string>
+    <!-- errors from TextToSpeech class -->
+    <string name="tts_ERROR_UNKNOWN">Unknown error.</string>
+    <string name="tts_ERROR_INVALID_REQUEST">Invalid request.</string>
+    <string name="tts_ERROR_NETWORK">A network error occurred.</string>
+    <string name="tts_ERROR_NETWORK_TIMEOUT">Network timed out.</string>
+    <string name="tts_ERROR_NOT_INSTALLED_YET">Voice data not installed yet.</string>
+    <string name="tts_ERROR_OUTPUT">Output error.</string>
+    <string name="tts_ERROR_SERVICE">TTS service error.</string>
+    <string name="tts_ERROR_SYNTHESIS">Speech synthesis error.</string>
+</resources>
